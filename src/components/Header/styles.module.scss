@@ -1,0 +1,33 @@
+.header {
+  max-height: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logos {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: flex-end;
+  gap: 15px;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+a.activeLink {
+  div {
+    color: blue
+  }
+font-weight: 700;
+}

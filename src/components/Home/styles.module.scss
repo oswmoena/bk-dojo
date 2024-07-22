@@ -1,0 +1,25 @@
+.home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 80vh;
+}
+
+h1 {
+  font-size: 5vw;
+  line-height: 1;
+
+  @media screen and (max-width: 480px) {
+    font-size: 10vw;
+  }
+}
+
+h2 {
+  font-size: 3.2vw;
+  font-weight: 400;
+  line-height: 1;
+  @media screen and (max-width: 480px) {
+    font-size: 5vw;
+  }
+}
