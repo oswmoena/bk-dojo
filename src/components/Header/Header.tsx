@@ -7,10 +7,10 @@ export const Header = () => {
         <header className={styles.header}>
             <div className={styles.logos}>
                 <Link to={'/'}>
-                    <img src="/bk.svg" alt={'bk'} height={100}/>
+                    <img src="assets/bk.svg" alt={'bk'} height={100}/>
                 </Link>
                 <Link to={'/'}>
-                    <img src="/AKF.svg" alt={'bk'} height={100}/>
+                    <img src="assets/AKF.svg" alt={'akf'} height={100}/>
                 </Link>
 
             </div>

@@ -36,7 +36,7 @@ const router = createBrowserRouter([
             }
         ]
     },
-], { basename: "/app"});
+], { basename: "/bk-dojo"});
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
     <React.StrictMode>

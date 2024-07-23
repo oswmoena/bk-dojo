@@ -56,7 +56,7 @@ export const Layout = () => {
                         alignItems: 'center'
                     }}>
                     <NavLink to={'/'}>
-                        <img className={styles.imageIcon} src="/bk.svg" alt={'home'}/>
+                        <img className={styles.imageIcon} src="/assets/bk.svg" alt={'home'}/>
                     </NavLink>
                 </div>
             </Toolbar>
