@@ -1,5 +1,7 @@
-import styles from './styles.module.scss';
 import {Link, NavLink} from "react-router-dom";
+import AKF from "/src/assets/AKF.svg"
+import BK from "/src/assets/bk.svg"
+import styles from './styles.module.scss';
 
 export const Header = () => {
     console.log('header');
@@ -7,10 +9,10 @@ export const Header = () => {
         <header className={styles.header}>
             <div className={styles.logos}>
                 <Link to={'/'}>
-                    <img src="assets/bk.svg" alt={'bk'} height={100}/>
+                    <img src={BK} alt={'bk'} height={100}/>
                 </Link>
                 <Link to={'/'}>
-                    <img src="assets/AKF.svg" alt={'akf'} height={100}/>
+                    <img src={AKF} alt={'akf'} height={100}/>
                 </Link>
 
             </div>
