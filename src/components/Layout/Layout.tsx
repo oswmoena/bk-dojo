@@ -4,6 +4,7 @@ import {Footer} from "../Footer/Footer.tsx";
 import {NavLink, Outlet} from "react-router-dom";
 import useMediaQuery from '../../hooks/useMediaQuery';
 import MenuIcon from '@mui/icons-material/Menu';
+import BK from "/src/assets/bk.svg"
 import styles from './styles.module.scss';
 import {
     AppBar,
@@ -56,7 +57,7 @@ export const Layout = () => {
                         alignItems: 'center'
                     }}>
                     <NavLink to={'/'}>
-                        <img className={styles.imageIcon} src="/src/assets/bk.svg" alt={'home'}/>
+                        <img className={styles.imageIcon} src={BK} alt={'home'}/>
                     </NavLink>
                 </div>
             </Toolbar>
